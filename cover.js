@@ -44,7 +44,7 @@ var message = "";
             message = "";
             var page = document.getElementById("page");
             page.setAttribute("class", "inform");
-            message+="<p>資訊</p>"
+            message+="<a href='馬麻我可以養拖把嗎-00757122+00757147.pptx'>說明投影面</a>"
             page.innerHTML = message;
         }
     function start(){
