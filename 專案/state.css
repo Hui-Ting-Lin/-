@@ -1,0 +1,44 @@
+.empty{
+    width: 140px;
+    height: 20px;
+    background: #EDEDED;
+    z-index: 2;
+}
+.title{
+    font-size: 15px;
+    text-align: left;
+}
+.table_row{
+    height: 35px;
+}
+#mood{
+    width: 70px;
+    height: 20px;
+    background-color: rgb(249, 252, 70);
+    z-index: 3;
+}
+#hungry{
+    width: 70px;
+    height: 20px;
+    background-color: rgb(249, 252, 70);
+    z-index: 3;
+}
+#clean{
+    width: 70px;
+    height: 20px;
+    background-color: rgb(249, 252, 70);
+    z-index: 3;
+}
+.know_pic {
+    height: 20px;
+    width: 20px;
+    
+}
+#know {
+	text-align: left;
+    font-weight: bold;
+    width: 100%;
+    position:absolute;
+    left: 0px;
+    bottom:5px;
+}

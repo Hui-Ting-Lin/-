@@ -1,0 +1,90 @@
+#useful{
+    z-index: 2;
+}
+
+.def {
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+}
+
+.trip_MAC {
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 400px;
+    background: url(MAC.jpg)no-repeat;
+    background-size:contain;
+}
+.trip_sea{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 400px;
+    background: url(sea.jpg)no-repeat;
+    background-size:contain;
+
+}
+.bath_on {
+    position:absolute;
+    left: 50px;
+    bottom: -40px;
+    width: 640px;
+    height: 400px;
+    background: url(bath.png)no-repeat;
+    background-size:contain;
+}
+
+.letter {
+    width: 300px;
+    height: 175px;
+    background:url(talk3.png);
+    background-size:contain;
+    position:absolute;
+    left: 170px;
+    top: 100px;
+}
+
+.game{
+    left: -50px;
+    right: 0px;
+    position:absolute;
+    width: 640px;
+    height: 400px;
+    background: url(white.jpg)no-repeat;
+    background-size:cover;
+}
+
+.in_MAC{
+    position:absolute;
+    height: 100px;
+    z-index: 1;
+}
+.in_sea{
+    position:absolute;
+    height: 150px;
+    z-index: 1;
+}
+#x {
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 3;
+}
+
+#x:hover {
+    width: 25px;
+    height: 25px;
+}
+
+.use_word {
+    width: 100%;
+    text-align: center;
+    position:absolute;
+    top: 70px;
+    right: 0px;
+}
