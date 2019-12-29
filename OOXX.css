@@ -1,0 +1,28 @@
+#OOXXtable{
+    position:relative;
+    top:7%;
+    left: 20%;
+    border-collapse: collapse;
+    font-family: Calibri;
+    font-size: 48px;
+}
+.OOXXtbody .OOXXtd{
+    position:relative;
+    border:solid 5px black;
+    border-collapse: collapse;
+    font-family: Calibri;
+    font-size: 48px;
+    width: 100px;
+    text-align: center;
+}
+.OOXXfoot{
+    height: 80px;
+
+}
+.OOXXtr {
+    height: 100px;
+}
+.pic{
+    height: 80px;
+    width: 80px;
+}
