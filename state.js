@@ -127,7 +127,7 @@ function enterGame() {
     left.innerHTML = message;
     
     var mes = '';
-    mes += '<table id="table"><caption>來與你的寵物互動吧</caption><tr>'
+    mes += '<table id="table"><caption>來與你的寵物互動吧<input type="image" id="w_sky" src="w.png" class = "f"><input type="image" id="y_run" src="y.png" class = "f"><input type="image" id="p_rip" src="p.png" class = "f"></caption><tr>'
         + '<td class="td_choice"><input type="image" id="trip_func_0" src="map.png" class = "choice">'
         + '<audio id = "mis" preload = "auto" ><source src = "yoyo.mp3" type = "audio/mpeg"></audio></td>'
         + '<td class="td_choice"><img class="choice" id="game_func_1" src="game2.png"></td>'
@@ -141,6 +141,10 @@ function enterGame() {
     document.getElementById("trip_func_0").addEventListener("click", trip, false);
     document.getElementById("bath_func_5").addEventListener("click", bath, false);
     document.getElementById("game_func_1").addEventListener("click", game, false);
+    
+    document.getElementById("w_sky").addEventListener("click", function(){moodWid = 140;hungryWid=100;cleanWid=130;}, false);
+    document.getElementById("y_run").addEventListener("click", function(){moodWid = 3;}, false);
+    document.getElementById("p_rip").addEventListener("click", function(){moodWid = 8;hungryWid=8;cleanWid=8;}, false);
     
 
     //document.getElementById("cleanbutton").addEventListener("click", function(){add_clean(140)}, false);//變乾淨
