@@ -47,6 +47,7 @@ function judge(id) {
             closeGame();
         } 
         else if (length == 9) {
+            petWin = -1;
             closeGame();
             /*window.alert("Tie!");*/
         }//平手
@@ -140,10 +141,11 @@ function closeGame(){
         if(petWin==1){
             mes = "<span class='use_word'>"+func_game_win[pet]+"</span>";
         }
-        else{
+        else if(petWin==0){
             mes = "<span class='use_word'>"+func_game_lose[pet]+"</span>";
 
         }
+        else mes = "<span class='use_word'>平手!</span>";
         mes += "<input type='image' id='x' src='x.png'></input>";
         use.innerHTML = mes;
         document.getElementById("x").addEventListener("click", function () {
