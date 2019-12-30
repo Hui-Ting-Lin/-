@@ -26,7 +26,7 @@ function end_die() {
     cover.setAttribute("class", "end_die");
     var mes = '<img class="die_pet" src="' + pet_die[pet] + '"><img class="rip" src="rip.png">';
     mes += "<p class='die_word'>OAO<br>你養的" + pet_name[pet] + "<br>死掉啦!!!</p>";
-    mes += "<span><a href = 'index.html'><img src='back.png' class = 'back'></a></span>";v
+    mes += "<span><a href = 'index.html'><img src='back.png' class = 'back'></a></span>";
     cover.innerHTML = mes;
 }
 
