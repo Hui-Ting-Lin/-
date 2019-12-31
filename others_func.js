@@ -151,7 +151,7 @@ function game(){
             +"<td id='3-2' class='OOXXtd' onclick='showOOXX(id)'></td>"
             +"<td id='3-3' class='OOXXtd' onclick='showOOXX(id)'></td></tr></tbody>"
             +"<tfoot class='OOXXfoot'><tr class = 'OOXXtr'><td class = 'OOXXtd' colspan='3'>"
-            +"<input id='closeGameButton' type='button' value='不玩了(#`Д´)ﾉ' onclick='closeGame()'>"
+            /*+"<input id='closeGameButton' type='button' value='不玩了(#`Д´)ﾉ' onclick='closeGame()'>"*/
             +"<input id='new' type='button' value='不管啦重來(#`Д´)ﾉ' onclick='newGame()'></td></tr></tfoot></table>"
     /*OOXXdiv.innerHTML=mesg;*/
     use.innerHTML = mesg;
