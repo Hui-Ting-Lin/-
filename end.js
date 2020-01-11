@@ -15,7 +15,10 @@ function up_to_the_sky() {
     var mes = '<img class="end_pet" src="' + pet_pic[pet] + '"><img class="light" src="light1.png">';
     mes += "<p class=sky_word>恭喜<br>你養的<span class='fc'>" + pet_name[pet] + "</span><br>   成功<span class='fc'>升仙啦~~~</span></p>";
     mes += "<span><a href = 'index.html'><img src='back.png' class = 'back'></a></span>";
+    mes += '<audio id = "winner" preload = "auto" ><source src = "win.mp3" type = "audio/mpeg"></audio>';
     cover.innerHTML = mes;
+    var winMusic = document.getElementById("winner");
+    winMusic.play();
 }
 
 function end_die() {
@@ -27,7 +30,10 @@ function end_die() {
     var mes = '<img class="die_pet" src="' + pet_die[pet] + '"><img class="rip" src="rip.png">';
     mes += "<p class='die_word'>OAO<br>你養的" + pet_name[pet] + "<br>死掉啦!!!</p>";
     mes += "<span><a href = 'index.html'><img src='back.png' class = 'back'></a></span>";
+    mes += '<audio id = "sad" preload = "auto" ><source src = "sad.mp3" type = "audio/mpeg"></audio>';
     cover.innerHTML = mes;
+    var sadMusic = document.getElementById("sad");
+    sadMusic.play();
 }
 
 function end_runaway() {
@@ -38,5 +44,8 @@ function end_runaway() {
     cover.setAttribute("class", "runaway");
     var mes = "<p class='runaway_word'>OAO<br>你養的" + pet_name[pet] + "<br>離家出走啦!!!</p>";
     mes += "<span><a href = 'index.html'><img src='back.png' class = 'back'></a></span>";
+    mes += '<audio id = "sad" preload = "auto" ><source src = "sad.mp3" type = "audio/mpeg"></audio>';
     cover.innerHTML = mes;
+    var sadMusic = document.getElementById("sad");
+    sadMusic.play();
 }
